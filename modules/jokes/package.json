@@ -1,0 +1,20 @@
+{
+	"name": "jokes-module",
+	"version": "1.0.0",
+	"description": "This is not a serious model, it generates jokes",
+	"main": "build/module.js",
+	"scripts": {
+		"test": "node test/test.js",
+		"build": "tsc -p ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Cognigy/CustomModules"
+	},
+	"author": "Cognigy GmbH",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^10.12.5",
+		"typescript": "^3.1.6"
+	}
+}
